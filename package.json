@@ -1,0 +1,31 @@
+{
+  "name": "simple-crud",
+  "version": "1.0.0",
+  "description": "demo of crud application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js localhost 9000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pindiespace/simple-crud.git"
+  },
+  "keywords": [
+    "crud",
+    "mongo",
+    "express",
+    "node"
+  ],
+  "author": "Pete Markeiwicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pindiespace/simple-crud/issues"
+  },
+  "homepage": "https://github.com/pindiespace/simple-crud#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "mongodb": "^2.1.18"
+  }
+}

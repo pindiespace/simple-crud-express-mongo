@@ -1,0 +1,31 @@
+/* Styles for simple CRUD app */
+
+body {
+
+}
+
+.quote-record:nth-child(odd)
+{
+    background-color: #eee;
+}
+
+/* style the listed comments */
+li div {
+	display: inline-block;
+}
+
+li div.quote-name {
+	width:25%;
+}
+
+li div.quote-content {
+	width:40%;
+}
+
+li div.quote-update {
+	width:10%;
+}
+
+li div.quote-delete {
+	width:10%;
+}
